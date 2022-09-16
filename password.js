@@ -1,11 +1,24 @@
-let password = "CookieLover21"
+let password = "CookieLover"
 
 let length = password.length
 
-{ if ( length => 10 )
 
-    { console.log ("success") }
 
+
+function containsNumber(password) {
+    return /\d/.test(password);
 }
 
-// did not finish in time, I am sad.
+console.log(containsNumber(password));
+
+
+
+
+    if ( length => 10 && (containsNumber(password)) == true ) {
+
+      console.log ( "success" ) }
+
+     else { console.log ( "failure" ) }
+
+
+     /// did not finish, i am sad :(
